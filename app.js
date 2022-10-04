@@ -9,4 +9,4 @@ app.use('/', indexRouter)
 app.set('view engine', 'ejs')
 app.use(express.static(path.join(__dirname, 'public')))
 
-app.listen(3000, () => {console.log('app rodando')})
+app.listen(3200, () => {console.log('app rodando')})
